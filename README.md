@@ -5,7 +5,7 @@
 ### ruby
   不同于 development，如果在 production 环境出现例外错误，不会显示程式 call stack 讯息，而是回传 public/500.html 页面。
   
-# Full error reports are disabled and caching is turned on
+ 注释：Full error reports are disabled and caching is turned on
  config.consider_all_requests_local       = false
  config.action_controller.perform_caching = true
 
